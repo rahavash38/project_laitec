@@ -1,0 +1,41 @@
+body {
+    background: url("../img/slider.jpg");
+    background-repeat: round;
+    background-repeat-y: no-repeat;
+}
+
+.container {
+    width: 960px;
+    height: 5000px;
+}
+.header{
+    padding-top: 15px;
+    position: relative;
+}
+.language li .fa-language{
+    font-size: x-large;
+}
+.language li{
+    display: inline-block;
+    position: relative;
+}
+.language li ul{
+    display: none;
+}
+.language li:hover ul{
+    display: block;
+    position: absolute;
+    background-color: white;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+.language li:hover ul a{
+    color: black;
+    text-decoration: none;
+}
+.search{
+    position: absolute;
+    top: 13px;
+    left: 35px;
+}
+
