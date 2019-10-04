@@ -1,8 +1,4 @@
-body {
-    background: url("../img/slider.jpg");
-    background-repeat: round;
-    background-repeat-y: no-repeat;
-}
+
 
 .container {
     width: 960px;
@@ -27,15 +23,81 @@ body {
     position: absolute;
     background-color: white;
     padding: 0 10px;
-    border-radius: 3px;
+    border-radius: 2px;
+    z-index: 1;
 }
 .language li:hover ul a{
     color: black;
     text-decoration: none;
 }
-.search{
+.header .search .fa-search{
+    font-size: x-large;
     position: absolute;
     top: 13px;
     left: 35px;
 }
+.header .logo{
+    position: absolute;
+    top: 15px;
+    left: 355px;
+}
+.header .logo p{
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.header .logo span{
+    color: white;
+    font-size: 39px;
+    position: absolute;
+    letter-spacing: 6px;
+    top: -23px;
+    left: 16px;
+    opacity: 0.7;
+}
+.header .share{
+    position: absolute;
+    top: 13px;
+    right: 40px;
+}
+.header .share .fa-share-alt{
+    font-size: x-large;
+}
+.header .cart{
+    position: absolute;
+    top: 13px;
+    right: 0;
+}
+.header .cart .fa-briefcase{
+    font-size: x-large;
+}
+.header .line{
+    border-bottom: solid 2px grey;
+    opacity: 0.2;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 35px;
+    font-weight: 500;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
