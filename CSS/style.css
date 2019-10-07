@@ -125,12 +125,12 @@ body {
     display: inline-block;
     position: relative;
 }
-.box img{
+.themeblock .box img{
     width: 210px;
     height: 210px;
     margin-left: 5px;
 }
-.box a{
+.themeblock .box a{
     position: absolute;
     left: 45px;
     top: 170px;
@@ -143,10 +143,163 @@ body {
     text-align: center;
     padding-top: 5px;
 }
-.box a:hover{
+.themeblock .box a:hover{
     background-color: black;
     color: white;
     text-decoration: none;
 }
+.products{
+    text-align: center;
+    padding-top: 55px;
+}
+.products .line{
+    border-bottom: grey 2px solid;
+    width: 95px;
+    margin-left: 400px;
+    opacity: 0.6;
+    padding-top: 10px;
+}
+.products p{
+    font-size: small;
+    padding-top: 15px;
+}
+.products .tabs{
+    display: inline-block;
+    padding: 15px 0;
+}
+.products .tabs a{
+    background-color: #eeeeee;
+    padding: 5px 35px;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+.products .tabs a:hover{
+    background-color: black;
+    color: white;
+}
+.row1 .box{
+    display: inline-block;
+    position: relative;
+    width: 174px;
+    padding-top: 15px;
+}
+.row1 .box p{
+    font-size: 10PX;
+}
+.row1 .box img{
+    width: 170px;
+}
+.row1 .box h6{
+    font-size: small;
+    opacity: 0.6;
+}
+.row1 .img1 span{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    padding: 3px 5px;
+    font-size: 10px;
+}
+.row1 .box .img3 p{
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 20px;
+    right: 10px;
+    padding: 3px 5px;
+}
+.row1 .box .img3 span{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    font-size: small;
+    padding: 0 5px;
+}
+.row1 .box .img5 span{
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 20px;
+    left: 10px;
+    font-size: small;
+    padding: 0 5px;
+}
+.row2 .box{
+    display: inline-block;
+    position: relative;
+    width: 174px;
+}
+.row2 .box span{
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 20px;
+    left: 10px;
+    font-size: small;
+    padding: 0 5px;
+}
+.products button{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    border: none;
+}
+.products button:hover{
+    background-color: grey;
+    color: white;
+}
+.products .box:hover{
+    opacity: 0.5;
+}
+.banners{
+    margin-top: 30px;
+    display: inline-flex;
+    background-color: #fafafa;
+}
+.banners img{
+    width: 50%;
+    height: 350px;
+}
+.banners .text{
+    width: 50%;
+}
+.text h2{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.banners .line2{
+    border-bottom: grey 2px solid;
+    width: 95px;
+    margin-left: 200px;
+    opacity: 0.6;
+    padding-top: 10px;
+}
+.banners .text p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.banners .text button{
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.banners .text button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+
+
+
 
 
