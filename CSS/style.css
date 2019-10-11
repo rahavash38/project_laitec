@@ -40,17 +40,17 @@ body {
     top: 13px;
     left: 270px;
 }
-.header .logo{
+.header .logo1{
     position: absolute;
     top: 12px;
     left: 585px;
 }
-.header .logo p{
+.header .logo1 p{
     font-size: 25px;
     font-weight: 800;
     letter-spacing: 3px;
 }
-.header .logo span{
+.header .logo1 span{
     color: white;
     font-size: 39px;
     position: absolute;
@@ -121,19 +121,19 @@ body {
     padding-bottom: 10px;
     color: grey;
 }
-.themeblock .box{
+.themeblock .boximg{
     display: inline-block;
     position: relative;
 }
-.themeblock .box img{
-    width: 210px;
-    height: 210px;
-    margin-left: 5px;
+.themeblock .boximg img{
+    width: 312px;
+    height: 315px;
+    margin-left: 18px;
 }
-.themeblock .box a{
+.themeblock .boximg a{
     position: absolute;
-    left: 45px;
-    top: 170px;
+    left: 105px;
+    bottom: 20px;
     width: 130px;
     height: 30px;
     background-color: white;
@@ -143,7 +143,7 @@ body {
     text-align: center;
     padding-top: 5px;
 }
-.themeblock .box a:hover{
+.themeblock .boximg a:hover{
     background-color: black;
     color: white;
     text-decoration: none;
@@ -168,93 +168,117 @@ body {
     padding: 15px 0;
 }
 .products .tabs a{
-    background-color: #eeeeee;
+    /*background-color: #eeeeee;*/
     padding: 5px 35px;
     margin: 10px;
     color: black;
     text-decoration: none;
+    width: 120px;
+    height: 80px;
+    background: #eeeeee;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
 }
-.products .tabs a:hover{
+.products .tabs a:before{
+    content: "";
+    position: absolute;
+    right: 50%;
+    top: 30px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 12px solid black;
+}
+
+.products .tabs a:hover {
     background-color: black;
     color: white;
 }
 .row1 .box{
     display: inline-block;
     position: relative;
-    width: 174px;
     padding-top: 15px;
+    margin-left: 5px;
 }
 .row1 .box p{
     font-size: 10PX;
+    text-align: center;
 }
 .row1 .box img{
-    width: 170px;
+    width: 250px;
+    margin: 5px;
 }
 .row1 .box h6{
     font-size: small;
     opacity: 0.6;
+    text-align: center;
 }
 .row1 .img1 span{
     background-color: black;
     color: white;
     position: absolute;
-    top: 20px;
-    right: 10px;
+    top: 30px;
+    right: 20px;
     padding: 3px 5px;
-    font-size: 10px;
+    font-size: 12px;
 }
 .row1 .box .img3 p{
     position: absolute;
     background-color: black;
     color: white;
-    top: 20px;
-    right: 10px;
-    padding: 3px 5px;
+    top: 30px;
+    right: 20px;
+    font-size: 12px;
+    padding: 2px 5px;
 }
 .row1 .box .img3 span{
     position: absolute;
-    top: 20px;
-    left: 10px;
+    top: 30px;
+    left: 20px;
     background-color: red;
     color: white;
     font-size: small;
-    padding: 0 5px;
+    padding: 2px 5px;
 }
 .row1 .box .img5 span{
     position: absolute;
     background-color: red;
     color: white;
-    top: 20px;
-    left: 10px;
-    font-size: small;
-    padding: 0 5px;
+    top: 30px;
+    left: 20px;
+    font-size: 12px;
+    padding: 2px 5px;
 }
 .row2 .box{
     display: inline-block;
     position: relative;
-    width: 174px;
 }
 .row2 .box span{
     position: absolute;
     background-color: red;
     color: white;
-    top: 20px;
-    left: 10px;
-    font-size: small;
-    padding: 0 5px;
+    top: 30px;
+    left: 20px;
+    font-size: 12px;
+    padding: 2px 5px;
 }
-.products button{
+.row1 button{
     text-align: center;
     background-color: black;
     color: white;
     padding: 5px 30px;
     border: none;
+    margin-left: 45%;
+    margin-top: 15px;
 }
-.products button:hover{
+.row1 button:hover{
     background-color: grey;
     color: white;
 }
-.products .box:hover{
+.box:hover{
     opacity: 0.5;
 }
 .banners{
@@ -266,40 +290,160 @@ body {
     width: 50%;
     height: 350px;
 }
-.banners .text{
+.banners .text1{
     width: 50%;
 }
-.text h2{
+.text1 h2{
     margin-top: 80px;
-    margin-left: 40px;
+    margin-left: 125px;
+    text-align: center;
 }
 .banners .line2{
     border-bottom: grey 2px solid;
     width: 95px;
-    margin-left: 200px;
+    margin-left: 50%;
     opacity: 0.6;
     padding-top: 10px;
 }
-.banners .text p{
+.banners .text1 p{
     margin-top: 10px;
     font-size: 12px;
+    text-align: center;
+    margin-left: 16%;
 }
-.banners .text button{
+.banners .text1 button{
     margin-top: 10px;
+    margin-left: 50%;
     background-color: white;
     color: black;
     border: 1px solid black;
 }
-.banners .text button:hover{
+.banners .text1 button:hover{
     background-color: black;
     color: white;
     border: 1px solid white;
 }
-
-
-
-
-
-
+.logo{
+    padding-top: 10px;
+}
+.logo img{
+    margin: 0 70px;
+    width: 80px;
+}
+.instagram{
+    display: inline-flex;
+    position: relative;
+    padding-top: 15px;
+}
+.instagram img{
+    width: 225px;
+}
+.instagram h2{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-weight: 100;
+}
+.map{
+    position: relative;
+}
+.map img{
+    width: 100%;
+    height: 230px;
+    margin-top: -6px;
+}
+.map .text2{
+    position: absolute;
+    background-color: white;
+    top: 40px;
+    left: 170px;
+    padding: 5px 25px;
+    font-size: 8px;
+}
+.footer{
+    padding-top: 35px;
+}
+.footer .menubar{
+    position: relative;
+}
+.footer .menubar h5{
+    letter-spacing: 5px;
+}
+.footer .menubar p{
+    font-size: small;
+}
+.footer .menubar i{
+    background-color: #ebebeb;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 2px;
+}
+.footer .menubar label{
+    display: block;
+    padding-top: 15px;
+}
+.footer .menubar label input{
+    width: 255px;
+}
+.footer .menubar button{
+    position: absolute;
+    left: 179px;
+    top: 150px;
+    height: 28px;
+    background-color: #ebebeb;
+    border: none;
+}
+.footer .menubar h3{
+    padding-bottom: 10px;
+}
+.footer .menubar .m-f-1{
+    position: absolute;
+    top: -20px;
+    left: 335px;
+}
+.footer .menubar .m-f-2{
+    position: absolute;
+    top: -20px;
+    right: 270px;
+}
+.footer .menubar .m-f-3{
+    position: absolute;
+    top: -20px;
+    right: 75px;
+}
+.footer .menubar ul{
+    padding-top: 20px;
+}
+.footer .menubar ul li a{
+    color: #4e555b;
+    font-size: small;
+}
+.footer .menubar ul li a:hover{
+    text-decoration: none;
+}
+.footer .method{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 1px;
+    margin-top: 110px;
+}
+.footer .method p{
+    font-size: small;
+    padding-top: 8px;
+}
+.footer .method img{
+    position: absolute;
+    top: 10px;
+    right: 440px;
+}
 
 
